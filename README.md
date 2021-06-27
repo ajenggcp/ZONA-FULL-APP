@@ -10,4 +10,5 @@
 6. php artisan key:generate
 7. add a database in phpmyadmin and change the DB_DATABASE in .env as the database name. (ex. DB_DATABASE = ZONA)
 8. run terminal "php artisan migrate"
-9. run terminal "php artisan serve" OR "php -S localhost:8000 -t public"
+9. run terminal "php artisan db:seed --class=UserSeeder"
+10. run terminal "php artisan serve" OR "php -S localhost:8000 -t public"
