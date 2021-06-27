@@ -48,19 +48,19 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="{{route('dashboard')}}">Home</a></li>
+                    <li class="active" style="padding-top: 18px; padding-bottom:0px;"><a href="{{route('dashboard')}}">Home</a></li>
                     <li class="aboutnav"><a href="http://localhost:8000/#about">About</a></li>
                     <li class="gallerynav"><a href="http://localhost:8000/#portfolio">Gallery</a></li>
                     <li class="teamnav"><a href="http://localhost:8000/#team">Team</a></li>
                     <li class="contactnav"><a href="http://localhost:8000/#contact">Contact</a></li>
-                    <li class="adminnav"><a href="ADMIN-WEB/login.html">Admin Login</a></li>
+                    <li class="adminnav" style="padding-top: 18px; padding-bottom:0px;"><a href="ADMIN-WEB/login.html">Admin Login</a></li>
 
                     <!-- Settings Dropdown -->
                     <li class="profilenav" style="margin-left: 3%;">
                         <x-jet-dropdown align="center" width="48">
                             <x-slot name="trigger">
                                 <button class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out">
-                                    <img class="h-8 w-8 rounded-full object-cover" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
+                                    <img class="h-8 w-8 rounded-full object-cover" style="width: 3em; height: fit-content;" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
                                 </button>
                             </x-slot>
 
@@ -114,14 +114,21 @@
             .absolute {
                 left: 0px;
             }
+
+            .profilenav {
+                padding-top: 15px;
+            }
         }
 
         @media (max-width: 1200px) {
             .absolute {
                 left: 0px;
             }
-        }
 
+            .profilenav {
+                padding-top: 15px;
+            }
+        }
     </style>
 
     <div id="content">
