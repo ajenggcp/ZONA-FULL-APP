@@ -53,7 +53,7 @@
                     <li class="gallerynav"><a href="http://localhost:8000/#portfolio">Gallery</a></li>
                     <li class="teamnav"><a href="http://localhost:8000/#team">Team</a></li>
                     <li class="contactnav"><a href="http://localhost:8000/#contact">Contact</a></li>
-                    <li class="adminnav" style="padding-top: 18px; padding-bottom:0px;"><a href="ADMIN-WEB/login.html">Admin Login</a></li>
+                    <li class="adminnav" style="padding-top: 18px; padding-bottom:0px;"><a href="">Admin Login</a></li>
 
                     <!-- Settings Dropdown -->
                     <li class="profilenav" style="margin-left: 3%;">

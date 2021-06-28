@@ -53,22 +53,22 @@
                     <li class="gallerynav"><a href="http://localhost:8000/#portfolio">Gallery</a></li>
                     <li class="teamnav"><a href="http://localhost:8000/#team">Team</a></li>
                     <li class="contactnav"><a href="http://localhost:8000/#contact">Contact</a></li>
-                    <li class="adminnav"><a href="ADMIN-WEB/login.html">Admin Login</a></li>
+                    <li class="adminnav"><a href="">Admin Login</a></li>
 
-                    
+
 
                 </ul>
-        </nav>
+            </nav>
 
-        <div>
-            <button class="get-started-btn scrollto" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent;">
-                Get Started
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="{{ route('login') }}">Login</a>
-                <a class="dropdown-item" href="{{ route('register') }}">Register</a>
+            <div>
+                <button class="get-started-btn scrollto" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent;">
+                    Get Started
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="{{ route('login') }}">Login</a>
+                    <a class="dropdown-item" href="{{ route('register') }}">Register</a>
+                </div>
             </div>
-        </div>
 
         </div>
 
