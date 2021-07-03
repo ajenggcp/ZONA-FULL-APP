@@ -77,6 +77,10 @@
                                     {{ __('Profile') }}
                                 </x-jet-dropdown-link>
 
+                                <x-jet-dropdown-link href="/tasks" style="color: black;">
+                                    {{ __('Gallery') }}
+                                </x-jet-dropdown-link>
+
                                 <div class="border-t border-gray-100"></div>
 
 
