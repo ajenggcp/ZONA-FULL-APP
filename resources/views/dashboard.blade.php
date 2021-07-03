@@ -67,9 +67,9 @@
                     </div>
                     @endforeach
                 </div>
-            </div>
             <div style="text-decoration: none;">
                 {{ $tasks->links() }}
+            </div>
             </div>
         </div>
     </section>
