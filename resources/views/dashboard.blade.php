@@ -53,6 +53,9 @@
                 </p>
             </div>
 
+            <div style="text-decoration: none;">
+                {{ $tasks->links() }}
+            </div>
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200" style="margin-top: 5%;">
                 <div>
 
@@ -67,9 +70,6 @@
                     </div>
                     @endforeach
                 </div>
-            <div style="text-decoration: none;">
-                {{ $tasks->links() }}
-            </div>
             </div>
         </div>
     </section>
